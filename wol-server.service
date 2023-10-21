@@ -1,0 +1,11 @@
+[Unit]
+Description=wol-server
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/wol-server
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
