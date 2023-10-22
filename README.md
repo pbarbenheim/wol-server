@@ -10,5 +10,6 @@ If every sent packet is able to be sent, it sends 100 packets to make sure the d
 If you have further questions, please look into issues or create one.
 
 License: GPL-3.0
+
 Author: Paul Barbenheim
 
