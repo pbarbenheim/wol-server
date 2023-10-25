@@ -16,7 +16,7 @@ use wol_server::{send_wol, MacAddr, MacAddrError};
 async fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync>> {
     const PORT: u16 = 4441;
 
-    let addr = SocketAddr::from(([127, 0, 0, 1], PORT));
+    let addr = SocketAddr::from(([0, 0, 0, 0], PORT));
 
     let listener = TcpListener::bind(addr).await?;
 
